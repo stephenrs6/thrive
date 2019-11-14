@@ -12,3 +12,56 @@
 .menu-text {
     color: black;
 }
+
+.services {
+    display: flex;
+}
+
+.landing-text{
+    float: right;
+    width: 100%;
+    text-align: right;
+    height: 28em;
+}
+
+#landing-text{
+    font-size: 35px;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 60px;
+}
+
+.landing-logo {
+    padding: 0 160px;
+}
+.services{
+    height: 500px;
+    background-color: #651c32;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-text{
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#service1{
+    order: 1;
+    width: 33%;
+}
+
+#service2{
+    order: 2;
+    width: 33%;
+}
+#service3{
+    order: 3;
+    width: 33%;
+}
