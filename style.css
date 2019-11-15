@@ -37,15 +37,21 @@
 }
 
 .landing-logo {
-    padding: 0 160px;
+    padding: 3%;
 }
 .services{
-    height: 500px;
-    background-color: #922f47;
+    background-color: #651c32;
     color: white;
     width: 100vw;
     position: relative;
     margin-left: -1vw;
+    font-family: cubano, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.explore{
+    font-size:50px;
 }
 
 .service-text{
@@ -68,28 +74,12 @@
 .flexbox-container{
     display: flex;
     flex-direction: row;
-    height: 350px;
+    height: 400px;
+    padding: 0 0 5% 0;
 }
 
 #service1{
     order: 1;
-    width: 33%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    margin: 3%;
-}
-
-#service2{
-    order: 2;
-    width: 33%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    margin: 3%;
-}
-#service3{
-    order: 3;
     width: 33%;
     border-style: solid;
     border-width: 5px;
