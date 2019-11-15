@@ -19,7 +19,9 @@
 
 .landing-zone{
     /* padding: 0 0 20% 0; */
-    background-image: url("pic2.jpg");
+    background-image: 
+        url("pic2.jpg");
+        /* url("quizresults.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     margin: -1vw;
@@ -33,6 +35,7 @@
     text-align: right;
     height: 28em;
     color: white;
+    margin-top: 200px;
 }
 
 #landing-text{
@@ -91,6 +94,7 @@
 }
 
 .service-text{
+    padding:1%;
     text-align: center;
     font-size: 36px;
     margin: auto;
@@ -148,8 +152,8 @@
     background-image: url("pic12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    transition: background-image 1s ease-in-out;
-    
+    /* transition: background-image 1s ease-in-out; */
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
 .divider1{
@@ -182,8 +186,8 @@ body, html{
     background-image: url("pic12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     clear: left;
     float: left;
 }
@@ -192,8 +196,21 @@ body, html{
     background-image: url("pic12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     clear: right;
     float: right;
+}
+
+button{
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #e7e7e7;
+    border-radius: 25px;
+    clear: right;
+}
+
+button:hover {
+    background-color: #e7e7e7;
 }
